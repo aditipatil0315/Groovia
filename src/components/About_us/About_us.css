@@ -4,7 +4,112 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CA5331;
+    padding: 30px 50px;
+}
+
+.about_us .upper {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    /* background-color: red; */
+
+}
+
+.upper h1 {
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #F5A884;
+    width: 40%;
+}
+
+.upper p {
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F5A884;
+    /* width: 50%; */
+}
+
+.about_us .middle {
+    width: 100%;
+    height: 30%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #CA5331;
+    flex-direction: row;
+    /* background-color: yellow; */
+}
+
+.middle p {
+    font-family: Monoton;
+    font-size: 12rem;
+    font-weight:500;
+    color: #F1E6C1;
+    text-shadow:   4px 4px 0px #F3B143;
+    /* width: 70%; */
+    text-align: center;
+}
+
+.about_us .lower {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+
+.lower p, .lower span {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F1E6C1;
+    /* width: 35%; */
+    /* text-align: center; */
+}
+
+.lower span {
+    font-size: 24px;
+    font-weight: 300;
+    width: 50%;
+    color: #F1E6C1;
+    font-family: Monoton;
+}
+
+.lower_right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+.lower_right .one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+.lower_right .two {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: pink; */
 }
