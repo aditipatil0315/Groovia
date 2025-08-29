@@ -1,0 +1,34 @@
+.banner {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* hides overflow */
+    position: relative;
+    border-bottom: 5px solid #CA5331;
+    border-top: 5px solid #CA5331;
+}
+
+.banner_track {
+    display: flex;
+    white-space: nowrap; /* keeps all text in one line */
+    animation: scroll 30s linear infinite;
+}
+
+.banner_text {
+    margin-right: 50px; /* spacing between repeats */
+    color: #CA5331;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: bold;
+    flex-shrink: 0; /* prevent shrinking */
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
