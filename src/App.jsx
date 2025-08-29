@@ -4,6 +4,7 @@ import About_us from './components/About_us/About_us'
 import Collection from './components/Collection/Collection'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
+import Why_us from './components/Why_us/Why_us'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero_section />
       <About_us />
       <Collection />
+      <Why_us />
       
       
     </div>

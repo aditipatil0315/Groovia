@@ -1,0 +1,50 @@
+
+
+.why_us {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3E2C6;
+    padding: 50px;
+    font-family: Montserrat;
+}
+
+.why_us .text_why h1 {
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+
+}
+
+.text_why span {
+    border: 2px solid #CA5331;
+    border-radius: 30px;
+    padding: 1.2px 12px;
+}
+
+.why_us .images {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.images .img {
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 12px; */
+    margin-bottom: 15px;
+}
