@@ -6,6 +6,7 @@ import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Why_us from './components/Why_us/Why_us'
 import Newsletter from './components/Newsletter/Newsletter'
+import Community from './components/Community/Community'
 import './App.css'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Collection />
       <Why_us />
       <Newsletter />
-      
+      <Community />
       
     </div>
   )
