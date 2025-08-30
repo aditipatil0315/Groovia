@@ -12,7 +12,7 @@ const Hero_section = () => {
                 <h1>“Step Back in Style. <br /> 
 Retro fashion reimagined for today.”</h1>
                 <p>From dance floors of the 70s to neon streets of the 80s — your new wardrobe is a time machine. Are you ready to groove?”</p>
-                <button>Explore Collection</button>
+                <button className='button'>Explore Collection</button>
 
             </div>
             <div className="right">

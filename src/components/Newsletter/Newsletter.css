@@ -1,0 +1,101 @@
+
+
+.newsletter {
+    width: 100%;
+    height: 30vh;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: #fff; */
+    position: relative;
+    overflow: hidden;
+    font-family: Montserrat;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.newsletter-content h2 {
+    font-size: 36px;
+    color: #CA5331;
+    font-weight: 700;
+    margin-bottom: 15px;
+    /* text-shadow: 2px 2px 0px #ff720e; */
+}
+
+.newsletter-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    font-family: Montserrat;
+    font-weight: 500;
+
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.newsletter-form input {
+    padding: 12px 15px;
+    /* border-radius: 8px; */
+    border: 2px solid #CA5331;
+    /* border: none; */
+    font-size: 16px;
+    width: 450px;
+    outline: none;
+    background-color: #F3E2C6;
+    font-family: Montserrat;
+}
+
+/* .newsletter-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #CA5331;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+} */
+
+/* .newsletter-form button:hover {
+    background: #ffcc00;
+    color: #000;
+    transform: scale(1.05);
+} */
+
+.side_text h3 {
+    font-family: Monoton;
+    font-size: 7rem;
+    font-weight:500;
+    color: #CA5331;
+    text-shadow:   4px 4px 0px #F3B143;
+    /* width: 70%; */
+    text-align: center;
+}
+
+.flicker-text {
+  font-family: Monoton;
+  font-size: 7rem;
+  background: linear-gradient(90deg, #CA5331, #F3B143, #CA5331);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 2s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+

@@ -47,7 +47,7 @@
     margin-bottom: 20px;
 }
 
-.left button {
+.button {
     width: 200px;
     height: 50px;
     background-color: #F3E2C6;
@@ -62,7 +62,7 @@
 
 }
 
-.left button:hover {
+.button:hover {
     box-shadow: none;
 }
 

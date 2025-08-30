@@ -5,6 +5,7 @@ import Collection from './components/Collection/Collection'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Why_us from './components/Why_us/Why_us'
+import Newsletter from './components/Newsletter/Newsletter'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About_us />
       <Collection />
       <Why_us />
+      <Newsletter />
       
       
     </div>
