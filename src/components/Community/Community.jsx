@@ -6,10 +6,10 @@ const Community = () => {
     <section className="community-section">
       <div className="community-content">
         <h2>⫸ Welcome to the Groove Club ⫷</h2>
-        <p>
+        {/* <p>
           More than fashion — it’s a movement. It’s about dancing in roller
           rinks, singing into hairbrushes, and living life in neon.
-        </p>
+        </p> */}
         <p className="highlight-text">
           Follow us. Wear the vibe. Be the vibe.
         </p>
