@@ -8,6 +8,7 @@ import Why_us from './components/Why_us/Why_us'
 import Newsletter from './components/Newsletter/Newsletter'
 import Community from './components/Community/Community'
 import './App.css'
+import gsap from 'gsap'
 
 function App() {
 

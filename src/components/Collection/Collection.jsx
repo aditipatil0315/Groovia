@@ -2,12 +2,11 @@ import React from 'react'
 import './Collection.css'
 import one from '../../assets/one.jpg'
 import two from '../../assets/two.jpg'  
-import three from '../../assets/three.jpg'
 import four from '../../assets/four.jpg'
 
 const Collection = () => {
   return (
-    <div className='collection'>
+    <div className='collection' id="collection-section">
        {/* Top Text */}
       <div className="collection-header">
         <h2>Collection 2025</h2>
@@ -41,7 +40,6 @@ const Collection = () => {
           Every design channels nostalgia, yet feels perfectly at home today.
         </p>
       </div>
-      
     </div>
   )
 }
